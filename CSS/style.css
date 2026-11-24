@@ -1,0 +1,84 @@
+html,
+body {
+  font-family: "Alata", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #0347a5;
+  background-color: #faf6ee;
+}
+footer {
+  padding-top: 0.2px;
+  font-family: "Alata";
+  color: #faf6ee;
+}
+header {
+  width: inherit;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  background-color: #faf6ee;
+}
+
+.footer {
+  background-color: #0347a5;
+}
+
+.logo {
+  font-family: "Finesse";
+  font-size: 25px;
+  margin: 0px;
+  padding: 5px 0px 0px;
+}
+
+.navlist {
+  font-family: "Sansita";
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navlist a {
+  text-decoration: none;
+  color: #0347a5;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-list a:hover {
+  background-color: #4a98c9;
+}
+
+hr {
+  border: solid 1px #0347a5;
+}
+
+p {
+  margin: 5px;
+}
+
+/*
+  ----- FONTS -----
+*/
+@font-face {
+  font-family: "Finesse";
+  src: url("fonts/Finesse-Roman.otf");
+}
+
+@font-face {
+  font-family: "Sansita";
+  src: url("fonts/Sansita-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Alata";
+  src: url(fonts/Alata-Regular.ttf);
+}

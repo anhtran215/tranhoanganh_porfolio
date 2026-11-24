@@ -1,0 +1,15 @@
+html,
+/*p {
+  color: #1e293b;
+}*/
+h2 {
+  color: #4a98c9;
+}
+h1 {
+  font-family: "Sansita";
+  font-size: 60px;
+}
+
+.table_home {
+  margin: 10px 100px;
+}
