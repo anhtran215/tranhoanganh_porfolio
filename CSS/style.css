@@ -28,6 +28,13 @@ header {
   background-color: #0347a5;
 }
 
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-inline: 20px;
+  box-sizing: border-box;
+}
+
 .logo {
   font-family: "Finesse";
   font-size: 25px;
@@ -63,6 +70,12 @@ hr {
 
 p {
   margin: 5px;
+  text-align: justify;
+}
+
+h1 {
+  font-family: "Sansita";
+  font-size: 60px;
 }
 
 /*
