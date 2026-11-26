@@ -8,8 +8,26 @@ h2 {
 h1 {
   font-family: "Sansita";
   font-size: 60px;
+  margin: 20px 0px;
 }
 
 .table_home {
   margin: 0px 00px;
+}
+
+.aboutMeButton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0px 0px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0347a5;
+  background-color: #faf6ee;
+  border: 2.5px solid #0347a5;
+  border-radius: 40px;
+}
+
+.aboutMeButton:hover {
+  background-color: #0346a590;
+  color: #faf6ee;
 }

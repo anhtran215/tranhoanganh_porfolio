@@ -1,16 +1,18 @@
 html,
 body {
-  font-family: "Alata", Helvetica, sans-serif;
+  font-family: "Garet", "Alata", sans-serif;
   margin: 0;
   padding: 0;
   color: #0347a5;
+  font-size: 20px;
   background-color: #faf6ee;
 }
 footer {
   padding-top: 0.2px;
-  font-family: "Alata";
+  font-family: "Garet";
   color: #faf6ee;
 }
+
 header {
   width: inherit;
   padding: 0px;
@@ -22,6 +24,7 @@ header {
   align-items: center;
   padding: 5px 40px;
   background-color: #faf6ee;
+  font-size: 20px;
 }
 
 .footer {
@@ -54,7 +57,7 @@ header {
 .navlist a {
   text-decoration: none;
   color: #0347a5;
-  font-size: 16px;
+  font-size: 18px;
   padding: 5px 10px;
   border-radius: 4px;
   transition: background-color 0.3s;
@@ -79,6 +82,10 @@ h1 {
 }
 
 /*
+  ----- COLORS -----
+*/
+
+/*
   ----- FONTS -----
 */
 @font-face {
@@ -94,4 +101,14 @@ h1 {
 @font-face {
   font-family: "Alata";
   src: url(fonts/Alata-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Garet";
+  src: url(fonts/Garet-Regular.otf);
+}
+
+@font-face {
+  font-family: "Garet-bold";
+  src: url(fonts/Garet-Bold.otf);
 }
